@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de eventos</title>
+    <link rel="icon" href="images/Icono.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Estilo-Galeria.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <div class="right"></div>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="Ofrecimientos.Html">Ofrecimientos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper"> <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>Uno de los eventos más importantes para nosotros ha sido la 'Escuela para Padres', la cual, año tras año, se ha venido llevando a cabo para cada uno de los padres de familia a través de los ciclos escolares, contratando a especialistas en los temas, es decir, a psicólogos y psicólogas especialistas en el ámbito familiar.
+                    </p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Evento escuela para padres.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>Como institución nos unimos a la lucha contra el cáncer de mama con actividades anuales que incluyen charlas educativas, campañas de sensibilización entre otros. A través de nuestro compromiso continuo, buscamos crear conciencia, brindar apoyo y promover la esperanza para todas las personas afectadas por el cáncer de mama.</p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Evento dia internacional contra el cancer de mama.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>El evento de la Feria Cultural es una celebración que busca promover valores como el respeto,
+                       la empatía y la tolerancia, entre otros. De esta manera, se crea conciencia sobre la diversidad cultural y se ofrece un aprendizaje histórico sobre las mismas</p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Evento feria cultural.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>el evento del Día contra la Violencia a la Mujer es una oportunidad vital para abordar y concienciar sobre un tema crítico. A través de diversas actividades como charlas, talleres y eventos culturales,buscamos sensibilizar a la comunidad sobre la violencia de género y promover la igualdad y el respeto hacia las mujeres. </p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Actividad-Dia-naranja.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>Nuestra colecta de tapas, realizada en todo el plantel estudiantil, tuvo como propósito concienciar a nuestro alumnado sobre el medio ambiente, así como apoyar a la caridad, contribuyendo de manera positiva a causas ambientales</p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Colecta de tapas.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="icons">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+                <img src="images/Logo.jpg" alt="">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="product-content">
+                <div class="product-txt">
+                    <p>el Día de la Madre en el Instituto Cultural Los Héroes es una celebración dedicada a mostrar aprecio y reconocimiento a las madres, así como a promover valores de amor, respeto y gratitud hacia todas las mujeres, realizando distintas actividades recreativas.</p>
+                </div>
+                <div class="product-img">
+                    <img src="images/Festejo dia de la madre.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:0,
+                stretch:0,
+            }
+        })
+    </script>
+</body>
+</html>

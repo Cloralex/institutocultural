@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Cultural los Héroes</title>
+    <link rel="icon" href="images/Icono.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <link rel="icon" href="https://institutoculturallosheroes.com/wp-content/uploads/2023/03/cropped-Logo-ICH-facebook.jpg">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <header class="header">
+
+    <div class="menu container">
+        <img src="images/Logo.jpg" alt="" class="Logo">
+        <input type="checkbox" id="menu"/>
+        <label for="menu"><img src="images/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Galeria.html">Galería</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="Ofrecimientos.Html">Ofrecimientos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="head content container">
+        <div class="header-txt">
+            <h1>Instituto <span>Cultural</span> <br>los Héroes</h1>
+            <p>
+                El Instituto Cultural Los Héroes es una prestigiosa 
+                escuela privada ubicada en Avenida José María Pino Suárez 7-1, 55763 Ecatepec de Morelos, 
+                comprometida con la excelencia académica y la formación integral de sus estudiantes.
+                La institución se destaca por ofrecer un ambiente educativo enriquecedor que fomenta el desarrollo intelectual, emocional y social de cada alumno.
+            </p>
+        </div>
+    </div>
+    </header>
+    <section class="popular container">
+        <h2>Instalaciones</h2>
+        <p class="P1">Nuestras instalaciones estan completamente adecuadas y modificadas de acuerdo a las edades 
+            de nuestro alumnado y materias que en ellas se imparte. Asi mismo contamos con todas las medidas
+            de seguridad necesarias y establecidas en los lineamientos que la autoridad ha determinado.
+            Contamos con accesos controlados que permiten la privacidad de nuestros alumnos asi como la del personal docente.
+            De igual manera nuestras instalaciones cuentan con sistemas electronicos de seguridad como camaras,
+            altavoces para alertas sismicas.
+            Estas instalaciones ademas estan diseñadas para cumplir con los protocolos en casos de sismo, incendios, y de más casos de fuerza mayor
+            que pudieran acontecer.
+        </p>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="images/Salones de preescolar.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <img src="images/Salones-primaria.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <img src="images/Arco-techo.png" style="width:100%">
+        </div>   
+        
+        <div class="mySlides">
+            <img src="images/Alberca.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="images/Salones-secundaria y cancha-png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="images/Laboratorio.png" style="width:100%">
+        </div>
+        
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000);
+    }
+</script>
+
+    
+    <main class="product container">
+        <h2>¿Quiénes somos?</h2>
+        <div class="product content">
+            
+        <p class="P1">
+            Nuestra misión como institución es brindar una educación centrada en las habilidades y capacidades de los alumnos, 
+            promover aprendizajes significativos y funcionales en el marco de un programa educativo integral. Desarrollar en los alumnos la capacidad de expresarse adecuadamente tanto en forma verbal como escrita, 
+            razonando lo que expresan en español e inglés.
+        </p>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+    
+            <div class="link">
+                <h3>Instituto Cultural Los Héroes | Dirección: Avenida José María Pino Suárez 7-1, 55763 Ecatepec de Morelos, México | Teléfono: 55 3611 0229 | Correo: primariaich@hotmail</h3>
+                <div class="link">
+                <ul>
+                    <li><a href="https://www.facebook.com/InstitutoCulturalLosHeroes" class="face"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ichihtec/" class="insta"><i class="fa-brands fa-instagram"></i></a></li>
+                        <img src="images/Logo.jpg" alt="Logo Instituto Cultural Los Heroes">
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
